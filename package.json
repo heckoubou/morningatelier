@@ -1,0 +1,16 @@
+{
+  "name": "morningatelier-home-comments",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^5.12.2",
+    "gh-pages": "^6.0.0",
+    "gatsby-plugin-gh-pages": "^5.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
